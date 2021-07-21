@@ -1,3 +1,11 @@
 #Recommended {
   overflow-x: scroll;
+  background: rgba(196, 5, 142, 0.886);
+}
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+.heading {
+  color: snow;
+  font-weight: bold;
 }
