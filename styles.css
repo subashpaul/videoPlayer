@@ -1,11 +1,37 @@
-#Recommended {
-  overflow-x: scroll;
-  background: rgba(196, 5, 142, 0.886);
-}
 body {
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: 200rem;
 }
-.heading {
-  color: snow;
+.head {
+  color: blue;
   font-weight: bold;
+}
+footer {
+  color: darkblue;
+}
+
+.text-col {
+  color: rgb(0, 80, 191);
+}
+.text-bdy {
+  color: rgb(47, 134, 255);
+}
+
+.container {
+  border-bottom: 3px solid black;
+}
+.list-group {
+  overflow-y: scroll;
+  max-height: 130px;
 }
